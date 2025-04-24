@@ -39,15 +39,11 @@ const metadata = {
     />
   </Fragment>
 
-  <Hero
-    id="hero"
-    title="Christian Enevoldsen"
-    tagline="Software Developer"
-    actions={[{ variant: 'primary', text: 'Get in touch', href: getPermalink('/contact#form') }]}
-  >
+  <Hero id="hero" title="Christian Enevoldsen" tagline="Software Developer">
     <Fragment slot="subtitle">
-      I build digital products with thoughtful UX and modern tech.<br />
-      Whether it's a SaaS, a micro startup, or a personal tool, I enjoy building things that solve real problems.
+      Software developer from Denmark
+      <br />
+      Writing code, learning things, and sharing the useful bits.
     </Fragment>
   </Hero>
 
@@ -73,7 +69,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://avatars.githubusercontent.com/u/000000?v=4',
+      src: '~/assets/images/me.jpeg',
       alt: 'Christian Enevoldsen avatar',
       loading: 'eager',
     }}
@@ -81,14 +77,24 @@ const metadata = {
     <Fragment slot="content">
       <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">About me</h2>
       <p>
-        I'm a self-taught software developer from Denmark with a passion for clean design, functional UX, and smart
-        architecture. I've worked across the stack and enjoy launching solo side projects.
+        Hey! Welcome to my little corner of the internet. I've been on an exciting journey through the world of software
+        development, always passionate about creating intuitive apps and finding elegant, simple solutions to the
+        puzzles coding throws my way. Throughout this adventure, I've dabbled with all sorts of tech—from Angular,
+        React, and Node.js to C#—constantly learning and sharing what I find most useful.
+      </p>
+      <br />
+      <p>
+        I genuinely enjoy the creative challenge that comes with building something from scratch, whether it's an
+        engaging web app, a smooth-running backend, or just solving an everyday problem with code. The best part of
+        coding, for me, is the moment everything clicks and works beautifully.
       </p>
       <br />
       <p>
         I'm particularly interested in Angular, Astro, TypeScript, and RxJS, and I'm always exploring ways to simplify
         complex problems.
       </p>
+      <br />
+      <p>When I'm not coding, you'll probably find me making music, or perfecting homemade pizza recipes.</p>
     </Fragment>
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-neutral-50 dark:bg-transparent"></div>
@@ -100,14 +106,29 @@ const metadata = {
     title="Experience"
     items={[
       {
-        title: 'Software Developer — LuggageHero <br /> <span class="text-sm font-normal">2021 - Present</span>',
-        description: `Building scalable booking and logistics features for a global storage network. Focused on frontend architecture, state management with RxJS, and improving performance and UX.`,
+        title: 'Senior Software Engineer — LuggageHero <br /> <span class="text-sm font-normal">2024 - Present</span>',
+        description: `Working on a global luggage storage app—focused on frontend architecture, features, and maintainability with Angular, RxJS, and Nx.`,
         icon: 'tabler:briefcase',
       },
       {
-        title: 'Freelancer / Indie Dev <br /> <span class="text-sm font-normal">2019 - 2021</span>',
-        description: `Launched and maintained several micro SaaS products and experiments. Managed the full stack from deployment to payment integration.`,
-        icon: 'tabler:rocket',
+        title: 'Senior Software Developer - Hejdoktor <br /> <span class="text-sm font-normal">2023 - 2024</span>',
+        description: `Built features like chat and video (VDX, Azure Video) for Hejdoktor and Hejkommune apps. Worked across iOS/Android (Xamarin/Maui) and web (React, TypeScript, C#/.NET).`,
+        icon: 'tabler:heartbeat',
+      },
+      {
+        title: 'Product Owner - SOFACOMPANY <br /> <span class="text-sm font-normal">2021 - 2023</span>',
+        description: `Took a step into product ownership, leading development of a PWA storefront built with Magento and React. Worked with both internal and external developers, ran A/B tests, and contributed to related projects like a 3D sofa builder. Learned a lot from the experience, but eventually chose to return to hands-on development, where I feel most at home — at least for now.`,
+        icon: 'tabler:sofa',
+      },
+      {
+        title: 'Scrum Master & Developer - SCHØDT <br /> <span class="text-sm font-normal">2020 - 2021</span>',
+        description: `Bootstrapped flatr.dk — a waitlist platform for co-ops. Built with NestJS on the backend and vanilla JS with EJS on the frontend, using WordPress as a headless API. Also took on light Scrum Master responsibilities and handled backlog management.`,
+        icon: 'tabler:building',
+      },
+      {
+        title: 'Developer - YourLocal <br /> <span class="text-sm font-normal">2016 - 2020</span>',
+        description: `Started as a junior dev, migrating a Rails backend to Node.js. Worked on a B2C food marketplace app and an admin panel using AngularJS, Node.js, and Ionic—gaining experience across the stack.`,
+        icon: 'tabler:burger',
       },
     ]}
     classes={{ container: 'max-w-3xl' }}
