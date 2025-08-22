@@ -10,8 +10,8 @@ site:
 metadata:
   title:
     default: Christian Enevoldsen
-    template: '%s — chrs.gg'
-  description: 'Portfolio of Christian Enevoldsen — Software Developer focused on modern web technologies and building useful, thoughtful digital products.'
+    template: '%s · chrs.gg'
+  description: 'Portfolio of Christian Enevoldsen · Software Developer focused on modern web technologies and building useful, thoughtful digital products.'
   robots:
     index: true
     follow: true
