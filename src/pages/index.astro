@@ -90,8 +90,8 @@ const metadata = {
       </p>
       <br />
       <p>
-        I'm particularly interested in Angular, Astro, TypeScript, and RxJS, and I'm always exploring ways to simplify
-        complex problems.
+        My current toolkit includes Angular with Nx, RxJS, and TypeScript. For static sites and side projects, I use
+        Astro.
       </p>
       <br />
       <p>When I'm not coding, you'll probably find me making music, or perfecting homemade pizza recipes.</p>
@@ -139,7 +139,7 @@ const metadata = {
     title="Education"
     items={[
       {
-        title: 'Self-Taught Developer <br /> <span class="text-sm font-normal">2016 - Present</span>',
+        title: 'Computer Science at University of Copenhagen <br />',
         icon: 'tabler:school',
       },
     ]}
@@ -152,12 +152,24 @@ const metadata = {
     columns={3}
     defaultIcon="tabler:point-filled"
     items={[
-      { title: 'TypeScript', description: 'My go-to language for all serious projects.' },
-      { title: 'Angular', description: 'Framework of choice for large applications.' },
-      { title: 'Astro & SSG', description: 'Love for static-first, content-focused sites.' },
-      { title: 'RxJS', description: 'Powerful state management and async handling.' },
-      { title: 'Tailwind CSS', description: 'Efficient and expressive styling.' },
-      { title: 'Node.js', description: 'Server-side logic and API building.' },
+      { title: 'TypeScript', description: 'Primary language across projects.' },
+      { title: 'NX', description: 'Monorepo setup with Nx mostly for enterprise solutions.' },
+      {
+        title: 'Angular / React / Next.js',
+        description: 'Primary frameworks for building web.',
+      },
+      {
+        title: 'Ionic / React Native',
+        description: 'Frameworks for building cross-platform mobile apps.',
+      },
+      { title: 'Redux / RxJS', description: 'Core for reactive state and async flows.' },
+      { title: 'Astro', description: 'Static-first for side projects and content sites.' },
+      { title: 'SCSS / Tailwind CSS', description: 'Go to styling solution.' },
+      { title: 'Hapi / Express / NestJS', description: 'APIs and backend glue.' },
+      { title: 'ASP.NET', description: 'Used for building web apps and backends' },
+      { title: 'PostgreSQL', description: 'Used this for relational data storage.' },
+      { title: 'Redis', description: 'Caching and in-memory data structure store.' },
+      { title: 'MongoDB', description: 'NoSQL database for flexible data models.' },
     ]}
   />
 
@@ -168,17 +180,24 @@ const metadata = {
     isReversed
     items={[
       {
-        title: 'Indie Micro SaaS',
-        description:
-          'A productivity tool built for indie makers. Handles Stripe billing, cron jobs, and has a minimalist UX.',
+        title: 'energitekniklolland.dk',
+        description: 'A website built with Webflow for a Danish energy consultancy.',
       },
       {
-        title: 'Portfolio Engine',
-        description: 'Built with Astro + Tailwind + Markdown collections. Open source and used by multiple devs.',
+        title: 'lynfaktura',
+        description: 'Built with Next.js · A simple invoicing app.',
+      },
+      {
+        title: 'skylume',
+        description: 'A very simple and lightweight weather app.',
+      },
+      {
+        title: 'sceneshot',
+        description: 'A tool for creating beautiful social media posts. NextJs',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=928&q=80',
+      src: 'https://images.pexels.com/photos/792194/pexels-photo-792194.jpeg',
       alt: 'Developer project preview',
     }}
     callToAction={{
