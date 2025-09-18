@@ -187,7 +187,7 @@ export const getStaticPathsBlogPost = async () => {
   if (!isBlogEnabled || !isBlogPostRouteEnabled) return [];
   return (await fetchPosts()).flatMap((post) => ({
     params: {
-      blog: post.permalink,
+      page: post.permalink,
     },
     props: { post },
   }));

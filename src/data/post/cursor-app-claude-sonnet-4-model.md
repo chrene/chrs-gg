@@ -13,7 +13,7 @@ tags:
   - copilot
   - claude
 metadata:
-  canonical: https://chrs.gg/cursor-app-claude-sonnet-4-model
+  canonical: https://chrs.gg/blog/cursor-app-claude-sonnet-4-model
 ---
 
 I've been experimenting with the Cursor app lately and was immediately impressed. The productivity boost, the coding suggestions, the feeling of having a smart partner alongside me. It all felt next level.

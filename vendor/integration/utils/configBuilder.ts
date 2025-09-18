@@ -145,7 +145,7 @@ const getAppBlog = (config: Config) => {
     },
     list: {
       isEnabled: true,
-      pathname: 'blog',
+      pathname: '/blog',
       robots: {
         index: true,
         follow: true,

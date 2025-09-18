@@ -20,7 +20,7 @@ export const footerData = {
       title: 'Company',
       links: [
         { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
+        { text: 'Blog', href: getBlogPermalink() },
       ],
     },
   ],
